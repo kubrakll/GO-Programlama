@@ -1,1 +1,1 @@
-# GO-Programlama
+Go, kullanımı kolay, güvenli ve performanslı bir web sunucusuyla birlikte gelir ve kendi web şablon kitaplığını içerir aslında web uygulama geliştirme isteyenler için en doğru seçimdir. Bu çalışmanın amacı güçlü, hızlı, öğrenilmesi kolay bir programlama dili olan Go programlama dili hakkında bilgi vermek ve temel kavramları hakkında açıklamalarda bulunmak ve son olarak Web projesi ile Golang dilinin avantajlı tarafını anlatmaktır. 
