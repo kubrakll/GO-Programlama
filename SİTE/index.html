@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Website</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Anasayfa">Anasayfa</a></li>
+            <li><a href="#services" data-after="GoLang">GoLang</a></li>
+            <li><a href="#about" data-after="Örnekler">Örnekler</a></li>
+            <li><a href="#contact" data-after="Avantajları">Avantajları</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>GOLANG <span></span></h1>
+        <h1>Programlama Dili <span></span></h1>
+        <h1>İndirmek için <span></span></h1>
+        <a href="https://golang.org/" type="button" class="cta">Tıklayınız</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Go<span>L</span>ang</h1>
+        <p>Golang diğer bir ismiyle Go dili, programlama verimliliğini arttırmak ve geliştiricilerin yaşadığı problemlerden yola çıkılarak ortaya çıkarılmıştır. Google tarafından geliştirilen bu dil statik olarak yazılmasının yanında bellek yönetimini kendisi sağlayan ve ertelenmiş fonksiyonları destekleyen bir çöp toplama sistemine sahiptir. Golang resmi web sitesinde bu dil için “Go basit, güvenilir ve verimli yazılım oluşturmayı kolaylaştıran açık kaynaklı bir programlama dilidir “ ifadeleri kullanılmıştır. Golang ilk zamanlar Google’ın arka plandaki sistem performansını arttırmak amacıyla geliştirilmiş bir sistem programlama dili iken zamanla az kaynak tüketmesi, web uygulamalarının kendi kendini host ediyor olması ve yüksek performans özellikleri sayesinde Web programlayıcıları tarafından dikkat çekmeye başlamıştır.  Golang 2007 yılında Google ekibinden Robert Griesemer, Rob Pike ve Ken Thompson tarafından geliştirilen programlama diliydi fakat ilk kez Kasım 2009 açık kaynak olarak piyasaya tanıtıldı. İlk  sürüm 1.0, Mart 2012'de yayınlandı şuan kullanılan son sürüm ise 2020 yılında güncellenmiş olan 1.15’tir. Neden yeni bir dil çıktığı kısmına değinecek olursak bazı kaynaklarda dili geliştiren tasarımcıların köklü dillerin(C++,Java, python vb.) büyük projelerde performans, derleme gibi sorunlarından sıkılıp yeni bir geliştirmek için motive olup bunu başardıkları yazmaktadır. Bu nedenle Golang’a eklenen her özellik yılların verdiği deneyimlerle eklenmiş olup herkesin anlayabileceği tarzda geliştirilmektedir. Golang diline özel olarak geliştirilmiş maskot Gopher ayırt edici özelliklerinden biridir.  Go Gopher daha önceden bağış toplama etkinliği için bir projede tasarımcısı Renee French tarafından yayınlanmıştır. Go projesine başlanıldığı zamanda Renee French tasarımcısı olmayı istemiştir ve Gopher’ı tasarlamıştır. Sincaba benzeyen bu maskotun adı “Go Gopher” olarak kalmıştır. Daha sonradan mavi renge boyanmıştır ve kullanılmaya başlanmıştır.  Bu yüzden Golang yazılımcılarına Gopher denmektedir.  
+<p><a href="GolangVs.html" class="cta">Golang vs Diğer Diller</a>
+</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <h2>İlk Adım</h2>
+          <p>Öncelikle <a href="https://golang.org/dl/" class="site">golang.org</a> adreine giderek kendi işletim sisteminize uygun olan kurulumu başlatınız. Windows kullandığım için onun üzerinde açıklamaya çalışacağım.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <h2>Adım: 2</h2>
+          <p>İndirdikten sonra next next diyerek kurabilirsiniz. Kurulumu oldukça basittir. (Windows için) Kurulumdan sonra ilgili dosyalar "C:\Go" altına koyulacaktır. "C:\Go\bin" dizini PATH environment değişkenine eklemeniz yeterlidir. Eklemeniz gereken adımlar; "C:\Go\bin" dizini C de bulup kopyalamak ve "Gelişmiş Sistem ayarları" kısmana geçmek ve "Ortam Değişkenleri" bölümünden Path kısmına çift tıklamak ve oraya boş bir yere yapıştırmak. </p>
+        </div>
+        
+        <div class="service-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <h2>Adım: 3</h2>
+          <p>Golang yükleme işlemi bittikten sonra son işlem olarak istediğimiz geliştirme ortamını seçip yüklemek olacaktır. Ben Visual Studio Code kullanıyorum siz aşağıdaki geliştirme ortamlarından birini indirebilirsiniz.</p>
+          <p>Geliştirme Ortamları: <a href="https://github.com/fatih/vim-go" class="site">Vim</a>, <a href="https://github.com/dominikh/go-mode.el" class="site">Emacs</a>,
+            <a href="https://github.com/DisposaBoy/GoSublime" class="site">SublimeText</a>, <a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin" class="site">IntelliJ</a>,
+            <a href="https://github.com/GoClipse/goclipse" class="site">Eclipse</a>,<a href="https://github.com/visualfc/liteide" class="site">LiteIDE</a>, 
+            <a href="https://github.com/Microsoft/vscode-go" class="site">Visual Studio Code</a>, <a href="https://atom.io/packages/go-plus" class="site">Atom</a> </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <h2>Online Go IDE</h2>
+          <p>Eğer bilgisayarınıza hiçbir yükleme yapmak istemiyorsanız Golang ile online olarak çalışmak mümkündür. <a href="https://play.golang.org/" class="site">Tıklayınız</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+ 
+ 
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/resim2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title"> GO <span>Programlama</span></h1>
+        <h2>Golang Programlama Dili</h2>
+        <p>
+          Dille ilgili çalışmalar yapmadan önce dil hakkında bilgiler edinilmelidir. Bu araştırma öncelikle Go dilinin temel özellikleri belirtilmiş, veri yapıları üzerinde durulmuş, uygulamalar geliştirilmiş (Kodlanmış) ve derlenerek nasıl bir sonuç ürettiği ortaya çıkartılmıştır.  Son olarak görsel bir web ara yüzü ile dilin anlaşılması kolay gele getirilmiştir. 
+
+Golang dilinin bazı özellikleri aşağıda sıralanmıştır.
+<p>•	Açık kaynak kodlu dildir.<br>
+•	Derleme süresi hızlıdır.<br>
+•	Modern bir dildir.<br>
+•	Modern teknolojinin ihtiyaçları göz önünde bulundurularak tasarlandı.<br>
+•	Yüksek performans ve hızlı gelişebilme özelliği ile Java ile kıyaslanabilecek seviyededir.<br>
+•	Çoğu iş sadece standart kütüphaneler ile yapılabildiği için dil yapısı basittir.<br>
+•	Eş zamanlı programlamada Go basit fakat performansı yüksek imkânlar sunmaktadır.<br>
+•	Eşzamanlılık(Birden fazla işlemin eşzamanlı ve etkili bir şekilde çalışmasını sağlar) özelliği vardır.<br>
+Dil, neredeyse 2009'da piyasaya çıkar çıkmaz yükselmeye başladı. Hızla 65. dilden dünyanın en üst sıralarına doğru kaymaya başladı. Ardından Business Insider , Go'yu 2016'nın en sıcak programlama dili olarak adlandırdı . TIOBE endeksine göre Go'nun notu 2017'de bir hayli yükseldi.Sistem ve ağ programlama, büyük veri, makine öğrenimi, ses ve video düzenleme, web programlama,Bulut hizmetleri, Medya platformları ve daha fazlası için kullanabilirsiniz.
+</p>
+        <a href="sayfa1.html" class="cta">Örnekler İçin Tıklayınız</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Golang <span>Avantajları</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Açık kaynak kodlu yazılım</h1>
+            <h2>Yazılımların farklı çeşitlerinin ortaya çıkmasını sağlar</h2>
+            
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Golang hızlıdır!</h1>
+            <h2>Go'nun basit bir yapısı ve sözdizimi vardır. Dil, işlevlere dayalıdır, bu nedenle öğrenmesi basit ve hızlıdır.</h2>
+            
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Bellek Yönetimi!</h1>
+            <h2>Performans üzerinde önemli bir etkiye sahip olan ve eşzamanlılığı daha verimli hale getirmeye yardımcı olan bir tür otomatik bellek yönetimi.</h2>
+        
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Golang güvenlidir!</h1>
+            <h2>Çok katı tiplendirmeye sahip derlenmiş bir dil olduğundan ve statik olarak yazıldığından, geliştiricilerin daha doğru ve dikkatli olması gerekir, böylece kod daha temiz ve daha güvenlidir.</h2>
+            
+          </div>    
+        </div>
+      
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Golang eşzamanlıdır!</h1>
+            <h2>Zamanımızda eşzamanlılık son derece önemlidir. Birden fazla işlemin aynı anda ve etkili bir şekilde çalışmasını sağlar. Golang, C, C ++, Java gibi verimli eşzamanlılığa sahiptir </h2>
+           
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Çapraz derleme</h1>
+            <h2>Go'nun yabancı makinelere kurulmasını zorunlu kılmak yerine, orijinal kaynak kodunuzu birden fazla makinede çalışacak şekilde kolayca çapraz derleyebilirsiniz.</h2>
+          </div>
+        </div>
+      </div>
+
+<p></p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Golang'ı benimsemiş şirketler vardır</h1>
+            <h2>Google, Youtube, Apple, Dropbox,Docker, Twitter,Facebook</h2>
+            <h2>BBC, The Economist, The New York Times, IBM</h2>
+          </div>    
+        </div>
+      
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Golang Dinamik olarak yazılmıştır</h1>
+            <h2>Dinamik olarak yazılmış bir dilde, değişkenleri başlatmak zorunda değilsiniz, bu da birçok geliştirici için büyük bir bonus</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/icon.png"/></div>
+          <div class="contact-info">
+            <h1>Sürekli Gelişmesi!</h1>
+            <h2>Golang sürekli kendini geliştirmektedir. </h2>
+            <h2>Kullanım uygulamaları: Konsol yardımcı programları, GUI uygulamaları ve web uygulamaları</h2>
+          </div>
+        </div>
+        
+      
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>G</span>LANG <span>P</span>rogramlama </h1></div>
+      
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="js/app.js"></script>
+</body>
+</html>

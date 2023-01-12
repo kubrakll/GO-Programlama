@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float:left;
+  width: 30.3%;
+  margin-bottom: 5px;
+  padding: 0px 8px;
+}
+
+.card {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+ 
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(12, 129, 150);
+ background-repeat: no-repeat;
+ font-family: 'Acme';font-size: 20px;
+}
+
+.container {
+  padding: 0 16px;
+  
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+p.b {
+  font-family: 'Alata';
+  font: 12px/25px ;
+  color: grey;
+}
+
+</style>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chicle' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+
+<body>
+
+<div class="about-section">
+  <h1>GOLANG VS ... </h1>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./img/gocplus.jpg" alt="Jane" style="width:100%;" style="height:100%;">
+      <div class="container">
+        <h2 class="a">Golang vs C++</h2>
+        <p class="title">Golang vs C++</p>
+        <p class="b">Golang aynı C++ gibi statik olarak yazılmıştır, yani programcının her değişken türünü bildirmesi gerekir. Ancak, Go'nun öğrenilmesi ve kodlanması C ++ 'dan çok daha kolaydır çünkü daha basittir.
+          Üzerinde durulması gereken bir başka konuda derleme zamanıdır. C ++, herkesin bildiği gibi yavaş bir derleme süresine sahiptir. Derleme zamanı gerçekte kodladığınız şeye bağlı olsa da Go, C ++ üzerinde derlemek için önemli ölçüde daha hızlıdır. 
+          Golang kitaplığı C ++ 'dan daha küçük olsa da, Go daha yeni bir dildir C++ yerini alması şuan mümkün olmasa da yüksek talep görmektedir. 
+        </p>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/python.png" alt="Mike" style="width:100%" >
+      <div class="container">
+        <h2>Golang vs Python</h2>
+        <p class="title">Go vs Python</p>
+        <p class="b">Golang ve Python için karşılaştırıcak konulardan biri türleridir. Go statik, python ise dinamik bir dildir. Her iki türünde avantaj ve dezavantajları vardır.
+          Python kalıtım olayını desteklerken golang ise mirası desteklemez. Golang arayüzleri desteklerken python desteklemez. Go daha fazla ayrıntılıdır.
+          Python kodlardaki istisnaları kısmen görmezden gelirken Golang hata direk bunu hemen belirtir. Bu iki dil arasında en çok tartışılan konulardan
+          biride hızlarıdır. İki dilde oldukça hızlıdır fakat golang derleme olarak python dan daha hızlıdır. Son olarak bu iki dilinde kullanım amacı farklıdır.
+          Python web geliştirme, oyun geliştirmede, Linux temelli uygulama yönetimi için kulanılırken Golang daha çok sistem dili olarak kullanılmaktadır. Fakat go ile web geliştirmekte mümkündür.
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/go-vs-java.jpg" alt="John" style="width:100%" >
+      <div class="container">
+        <h2>Golang vs Java</h2>
+        <p class="title">Golang vs Java</p>
+        <p class="b">Golang ile javayı kıyaslamak aslında yeni ve eski kıyaslaması gibidir. Köklü bir dille yeni gelişmekte olan bir dil arasındaki savaştır.
+          Kod yazmak konusunda ikisi de C dilinden ilham alsada farklılıklar oldukça fazladır.  Go, Java gibi nesne yönelimli  değildir.  Performans bakımından Go ile java arasında fark vardır.
+          Go daha hızlıdır. Java'nın aynı zamanda çoklu okuma yetenekleri de vardır, ancak bunlar Go'nun modern, en son teknolojisiyle aynı seviyede değildir.
+          Go'da javaya oranla herhangi bir çözüme sahip olmayan bir problemle karşılaşabilme olasılığınız oldukça düşüktür. Çünkü sizin yaptığınız hatayı mutlaka biri yapmıştır ve çözümü vardır.
+          
+        </p>
+        
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/cdili.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Golang vs C#</h2>
+        <p class="title">Golang vs C#</p>
+        <p class="b">İki dilde derleme olarak ilk çalıştırma da çok hızlıdır fakat ikinci derlemede Golang, C#'dan iki kat gibi bir oranla daha hızlıdır.
+          Aynı  zamanda “İlk öğrenmek için en iyi programlama dili nedir?" sorunda Go 9. sırada C# ise 11. sırada yer almaktadır. Sebebi ise daha basıt ve anlaşılır bir dil olmasıdır.
+
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img/php.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Golang vs PHP</h2>
+        <p class="title">Golang vs PHP</p>
+        <p class="b">Golang statik olarak yazılmış, derlenmiş bir dil iken PHP dinamik olarak yazılmış. PHP, Golang'a göre daha yavaş bir yürütme süresine sahiptir.
+          Go, kaynak dosyaları otomatik olarak biçimlendiren bir 'go fmt' araç desteği sağlarken, bu PHP dili ve ilgili yapılarda mevcut değildir.
+
+        </p>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Swift-vs-Go.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Golang vs Swift </h2>
+        <p class="title">Golang vs Swift</p>
+        <p class="b">Swift oldukça karmaşık bir dil iken GoLang aksine bir o kadar kolaydır. Swift, uygulama yazmak için iOS'ta çalışmak üzere daha iyi tasarlanırken, Go, yazma sunucuları ve web geliştirme için daha uygundur.
+          Swift genel türleri desteklerken Go genel türü desteklemez. Swift, iOS uygulamaları yazmak için çok dar ve özel bir göreve odaklanırken Go, genel arka uç hizmetleri yazarak çok geniş bir görevi hedefliyor.
+
+
+        </p>
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
